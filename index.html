@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTOS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(202, 202, 202);
+        }
+
+        header {
+            min-height: 80px;
+            background-color: rgb(56, 4, 26);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 2.2em;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+    </body>
+</body>
+        }
+
+        .motos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+
+        .manga {
+            box-shadow: 0 0 15px rgb(100, 1, 1);
+            padding: 2px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            width: 400px;
+            gap: 10px;
+        }
+
+        .manga img {
+            height: 200px;
+            width: 150px;
+            object-fit: cover;
+        }
+
+        .manga p {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <span class="logo">
+            MOTOS
+        </span>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Motos</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+    <body>
+        <section class="container">
+            <nav>
+            <div class="motos">
+                <a href="https://albamoto.com.br/tudo-sobre-moto-parte-1/" >
+                    <div class="motos">
+                        <img src="data:image/jpeg;base64,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"
+                            alt="">
+                        <div>
+                            <h2>Yamaha</h2>
+                            <p>A Yamaha MT-09 é uma motocicleta de rua da série MT com um motor de três cilindros em linha de 847-890 cc, 4 tempos, 12 válvulas, DOHC, refrigerado a líquido, com virabrequim de plano cruzado, um quadro leve de liga fundida.</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="motos">
+                    <a href="https://sites.google.com/site/motosdicas/news/comportamentodosmotoresparte2" >
+                        <img src="https://image.webmotors.com.br/_fotos/AnuncioMotoUsados/gigante/2022/202204/20220425/bmw-r-1200-gs-triple-black-WMIMAGEM10171183374.jpg"
+                            alt="">
+                        <div>
+                            <h2>BMW R 1200 GS</h2>
+                            <p>As BMW R1200GS e R1200GS Adventure são motocicletas fabricadas em Berlim, Alemanha, pela BMW Motorrad, parte do grupo BMW. É uma da família BMW GS de motocicletas esportivas duplas. Ambas as motocicletas têm um motor boxer de dois cilindros e 1.170 cc com quatro válvulas por cilindro.O preço sujerido no mercado Brasileiro é de 73.450,00 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="motosdicas">
+                    <a href="https://tudodemotos.com.br/dicas/" >
+                        <img src="https://imgsapp.em.com.br/app/noticia_127983242361/2012/07/03/303843/20120703070817987025a.jpg"
+                            alt="">
+                        <div>
+                            <h2>Honda XRE 300</h2>
+                            <p>A XRE 300 é uma motocicleta on-off-road fabricada pela Honda. Começou ser produzida no Brasil em 2009, substituindo tanto a Tornado 250 quanto a NX4 Falcon. O preço sujerido no mercado Brasileiro é de 16.190,00 - 17.990,00 (ABS)  </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="motos">
+                    <a href="https://www.endomoto.com.br/xre-300" >
+                    <img src="https://cdn.motor1.com/images/mgl/13v7q/s3/honda-xre-300-2022.jpg"
+                        alt="">
+                    <div>
+                        <h2></h2>Suzuki GSX-R1000</h2>
+                        <p>A Suzuki GSX-R1000 é uma moto superesportiva fabricada pela Suzuki. Foi introduzido em 2001 para substituir o GSX-R1100 e é alimentado por um motor de quatro cilindros em linha de 999 cc refrigerado a líquido, embora originalmente 988 cc de 2001 a 2004.</p>
+                    </div>
+                </div>
+                 </a>
+                <div class="moto">
+                    <a href="https://upload.wikimedia.org/wikipedia/commons/7/71/Luke_Delehanty%27s_2001_GSX-R1000.jpg" >
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Luke_Delehanty%27s_2001_GSX-R1000.jpg"
+                            alt="">
+                        <div>
+                            <h2>Kimetsu no yaiba</h2>
+                            <p>Em Kimetsu no Yaiba, Tanjiro, um bondoso jovem que ganha a vida vendendo carvão descobre que sua família foi massacrada por um demônio. E, para piorar, Nezuko, sua irmã mais nova e única sobrevivente, também acabou transformada em um demônio.!</p>
+                        </div>
+                        <div class="manga">
+                    <a href="https://animesonlinex.cc/animes/kimetsu-no-yaiba-dublado/" >
+                        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/f77a4946-8ae3-447e-884b-97fd0e1ddb57/dd4d6r9-a23b65cf-31da-4ed2-bd44-431451191118.png"
+                            alt="">
+                        <div>
+                            <h2>Kimetsu no yaiba</h2>
+                            <p>Em Kimetsu no Yaiba, Tanjiro, um bondoso jovem que ganha a vida vendendo carvão descobre que sua família foi massacrada por um demônio. E, para piorar, Nezuko, sua irmã mais nova e única sobrevivente, também acabou transformada em um demônio.!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        </section>
+    </body>
+</body>
+
+</html>
